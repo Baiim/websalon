@@ -1,0 +1,10 @@
+<link type="text/css" rel="stylesheet" href="{{asset('css/fontello.css')}}" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/skeleton.css')}}" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/base.css')}}" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/fotorama.css')}}" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/animate.css')}}" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/datepicker.css')}}" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/timepicker.css')}}" />
+<link type="text/css" rel="stylesheet" href="{{asset('css/style.min.css')}}" />
