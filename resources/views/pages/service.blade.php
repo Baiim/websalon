@@ -75,7 +75,7 @@
 										<div class="price"><span>Rp. 350.000</span></div>
 									</div>
 									<div class="title_holder">
-										<h3><a href="{route('theatrical')}}">Rias teater</a></h3>
+										<h3><a href="{{route('theatrical')}}">Rias teater</a></h3>
 										<span>Durasi : 25 - 35 menit</span>
 									</div>
 								</div>

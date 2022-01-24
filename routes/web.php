@@ -22,6 +22,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/service', 'HomeController@service')->name('service');
+Route::get('/about', 'HomeController@about')->name('about');
+Route::get('/gallery', 'HomeController@gallery')->name('gallery');
 Route::get('/success','HomeController@success')->name('success');
 Route::get('/keluar', 'HomeController@logout')->name('keluar');
 
@@ -39,7 +41,7 @@ Route::resource('customer', 'HomeController');
 Route::prefix('Service')->group(function(){
     Route::get('/bridal', 'HomeController@bridal')->name('bridal');
     Route::get('/party', 'HomeController@party')->name('party');
-    Route::get('/theatrical', 'HomeController@thetrical')->name('theatrical');
+    Route::get('/theatrical', 'HomeController@theatrical')->name('theatrical');
     Route::get('/television', 'HomeController@television')->name('television');
     Route::get('/commercial', 'HomeController@commercial')->name('commercial');
     Route::get('/movie', 'HomeController@movie')->name('movie');

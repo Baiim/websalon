@@ -38,12 +38,12 @@ class HomeController extends Controller
         Auth::logout(); // menghapus session yang aktif
         return redirect()->route('login');
     }
-    // public function about(){
-    //     return view('pages.about');
-    // }
-    // public function gallery(){
-    //     return view('pages.galeri');
-    // }
+    public function about(){
+        return view('pages.about');
+    }
+    public function gallery(){
+        return view('pages.galeri');
+    }
     public function service(){
         return view('pages.service');
     }

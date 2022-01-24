@@ -7,9 +7,9 @@
             <div class="makeup_fl_nav_list">
                 <ul>
                     <li><a href="{{route('home')}}"><span>Beranda</span></a></li>
-                    <li><a href="#"><span>Tentang Kami</span></a></li>
+                    <li><a href="{{route('about')}}"><span>Tentang Kami</span></a></li>
                     <li><a href="{{route('service')}}"><span>Layanan</span></a></li>
-                    <li><a href="#"><span>Galeri</span></a></li>
+                    <li><a href="{{route('gallery')}}"><span>Galeri</span></a></li>
                     @guest
                     <li><a class="btn btn-primary btn-sm" href="{{ route('login') }}"><span>Masuk</span></a></li>
                     @endguest
