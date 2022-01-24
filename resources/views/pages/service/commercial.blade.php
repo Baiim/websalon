@@ -1,5 +1,5 @@
 @extends('layouts.home')
-@section('name')
+@section('title')
     Commercial MakeUp | Iyaiyoh MakeUp
 @endsection
 @section('content')
